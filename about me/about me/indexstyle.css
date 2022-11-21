@@ -1,0 +1,158 @@
+html {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0ch;
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0%;
+    display: block;
+}
+
+
+.navegacion {
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 5em;
+    padding: 3em;
+    padding-bottom: 2.5em;
+    padding-right: 1em;
+}
+
+
+header #items {
+    float: right;
+    display: flex;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+
+#items,
+li {
+    margin-left: 0.5em;
+    align-items: center;
+}
+
+#items :last-child {
+    color: white;
+    text-decoration: solid;
+}
+
+
+#contactame{
+    font-weight: 700;
+    background-color: rgb(12, 207, 5);
+    border-radius: 1.5em;
+    padding: 0.7em;
+    
+    
+}
+
+
+
+
+body {
+    margin: 0em;
+    padding: 0em;
+}
+
+.presentacion {
+    margin-top: 5em;
+    text-align: center;
+    justify-content: center;  
+}
+
+.yo {
+    width:20%;
+   margin: 0;
+   padding: 0;
+   border: 3px solid black;
+   border-radius: 0.5em;
+   
+   
+   
+}
+
+
+ .quiensoy{
+    margin-top: 3em;
+    padding: 4em ;
+    text-align: center;
+    color: white;
+    background-color: black;
+   ;
+ }
+
+ .alinearparrafos{
+    display: inline-flexbox;
+    width: 50%;
+    margin-left: 25%;
+    text-align: initial;
+    font-size: 1.2em;
+    
+ }
+ .titulo-proyecto{
+  text-align: center;
+
+ }
+
+ .trabajos{
+  display:flex;
+  place-content: center;
+  box-sizing: border-box;
+  
+ }
+ .trabajo{
+    margin:3em;
+    max-width: 100%;
+    display: flex;;
+ }
+ .tecnologias{
+    margin: 0;
+    padding: 3em;
+    text-align: center;
+    background-color:black;
+    color: aliceblue;
+
+ }
+ .imgtecno{
+    width: 25%;
+    display: inline-block;
+ }
+ 
+ .contentform{
+    margin: 0;
+    padding: 3em;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(253, 253, 253);
+    
+
+}
+   
+ .form-list{
+    list-style: none;
+    text-align: center;
+    display:flexbox;
+    margin: 2em;
+    position: relative}
+ 
+   
+ input{
+    width: 25%;
+    height: 3em;
+    border-radius: 0.5em;
+    border-color: black ;
+    padding: 0.5em;
+    margin: 0.5em;
+    
+    
+ }
